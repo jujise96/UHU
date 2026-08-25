@@ -8,8 +8,6 @@ This repository has two branches, corresponding to two stages of the same DDSI c
 - **`master`** — an early, console-based Java exercise using raw **JDBC** (no ORM). Connects to a database, prints its metadata, and lists members (Socios) through a text menu.
 - **`Proyecto`** — a fuller Java Swing desktop application using **Hibernate ORM**, managing members (Socios), instructors (Monitores) and activities (Actividades), with a graphical login screen to pick between MariaDB and Oracle.
 
-🇪🇸 A Spanish version of this document is available at [README.es.md](README.es.md).
-
 ## `master` branch — console JDBC exercise
 
 1. On startup, opens a JDBC connection (Oracle or MariaDB, selected in code) and prints the database metadata to the console.
