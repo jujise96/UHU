@@ -5,8 +5,6 @@
 
 **DDSI-Proyecto** is a Java Swing desktop application for managing a club/gym-style organization: its **members (Socios)**, its **instructors (Monitores)** and the **activities (Actividades)** they run. It follows an MVC architecture and persists data through **Hibernate ORM**, with the ability to connect to either a **MariaDB** or an **Oracle** database at login time.
 
-🇪🇸 A Spanish version of this document is available at [README.es.md](README.es.md).
-
 ## Features
 
 - **Login screen** that lets the user pick which database engine to connect to (**MariaDB** or **Oracle**) before entering the application.
